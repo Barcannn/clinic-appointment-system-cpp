@@ -67,3 +67,28 @@ vcpkg_installed/
 # test output & cache
 Testing/
 .cache/
+# macOS files 
+.DS_Store
+*.dSYM/
+
+# Local executables
+main
+main1
+randevu
+randevu1
+randevu2
+rabdevuu22
+#Previous practice source files
+main1.cpp
+randevu.cpp
+randevu1.cpp
+randevu2.cpp
+randevuu22.cpp
+
+# VS Code settings 
+.vscode/
+
+#Local practice files 
+deneme*
+randevu*
+main1*
