@@ -34,7 +34,7 @@ A console-based clinic appointment management system developed in C++ as an obje
 - 15:00
 
 ## Concepts Used 
-- Objects-oriented programming
+- Object-oriented programming
 - Classes and objects 
 - Encapsulation
 - Constructors 
