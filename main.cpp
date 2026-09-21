@@ -19,7 +19,9 @@ void display() const{
     std::cout << "Hasta: " << patientName
               << " | Doktor: " << doctorName
               << " | Tarih: " << appointmentDate
-             << " | Saat: " << timeSlot << std::endl;
+             << " | Saat: " << timeSlot
+             << " | Durum: " << (isActive ? "AKTIF" : "IPTAL")
+             << std:: endl;
 
 }
 

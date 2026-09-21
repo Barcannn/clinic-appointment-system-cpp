@@ -6,8 +6,11 @@ A console-based clinic appointment management system developed in C++ as an obje
 
 - Create appointments using patient name, doctor, date and time
 - Display available time slots for a selected doctor and date
-- Prevent double booking for the same doctor, date, and time
+- Prevent double booking for the same doctor, date and time
 - List all registered appointments
+- Cancel active appointments using doctor, date and time
+- Display each appointment's status as active or cancelled
+- Make cancelled time slots available for new appointments
 - Display doctors' appointment schedules
 - List general appointment hours
 - List doctors and their medical specialties
@@ -43,6 +46,7 @@ A console-based clinic appointment management system developed in C++ as an obje
 - Functions 
 - References and `const`
 - Console input and output 
+- Appointment state management
 
 ## Build and Run
 
@@ -70,7 +74,6 @@ DD-MM-YYYY
 
 - Input and date validation
 - Saving appointments to a file
-- Appointment cancellation
 - Automated tests 
 - Graphical user interface
 
